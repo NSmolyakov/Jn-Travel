@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto|Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900|Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap&subset=cyrillic,cyrillic-ext');
 
 /*Global Styles*/
 * {
@@ -17,17 +17,22 @@ h1 {
 }
 
 h2 {
-    font-size: 48px;
     font-family: Ubuntu;
-    color: #343434;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
     text-align: center;
+
+    color: #555555;
 }
 
-
 h3 {
-    font-size: 36px;
     font-family: Ubuntu;
-    color: #fff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
 }
 
 p {
@@ -39,7 +44,7 @@ p {
 .btn-primary {
     min-width: 302px;
     min-height: 76px;
-    
+
     font-family: Ubuntu;
     font-style: normal;
     font-weight: bold;
@@ -50,10 +55,10 @@ p {
     background: #BC002D;
     box-shadow: 0px 4px 25.2px rgba(154, 154, 154, 0.25);
     border-radius: 10px;
-    border:0;
+    border: 0;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
     color: #DDD;
     background: #960427;
     box-shadow: 0px 4px 25.2px rgba(154, 154, 154, 0.5);
@@ -65,6 +70,7 @@ header {
     width: 100%;
     background: #343434;
     position: fixed;
+    z-index: 1;
 }
 
 .bg-dark {
@@ -78,8 +84,9 @@ header {
     font-weight: bold;
     font-size: 16px;
 }
+
 .nav-link:hover {
-    color:#BC002D !important;
+    color: #BC002D !important;
 }
 
 .lang {
@@ -120,3 +127,83 @@ header {
 }
 
 /*Hero block Styles end*/
+
+
+/*Tours block styles start*/
+.tours {
+    margin-top: 100px;
+}
+
+.classic {
+    background: url(img/classic-bg.png);
+    width: 1140px;
+    height: 300px;
+}
+
+.wrap_tour {
+    position: relative
+}
+
+.wrap_tour h3 {
+    position: absolute;
+    top: 40px;
+    left: 52px;
+
+    color: #E4E4E4;
+}
+
+.wrap_tour p {
+    position: absolute;
+    top: 98px;
+    left: 52px;
+    max-width: 460px;
+
+    color: #E4E4E4;
+}
+
+.wrap_tour a {
+    display: block;
+    margin-top: 14px;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #fff;
+}
+
+.hakuba {
+    max-width: 566px;
+    height: 300px;
+    background: url(img/hakuba-bg.png);
+}
+
+.okinava {
+    max-width: 566px;
+    height: 300px;
+    background: url(img/okinava-bg.png);
+}
+
+.more_tours {
+    margin-bottom: 174px;
+}
+
+.more_tours p {
+    max-width: 560px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.72px;
+
+    color: #555555;
+}
+
+.more_tours btn {
+    display: block;
+}
+
+/*Tours block styles end*/

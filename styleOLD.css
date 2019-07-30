@@ -50,31 +50,6 @@
     text-align: center;
 }
 
-.classic {
-    grid-area: cl;
-    background: url(img/classic-bg.png);
-    max-width: 1200px;
-    height: 300px;
-}
-
-.hakuba {
-    grid-area: hb;
-    max-width: 600px;
-    height: 300px;
-    background: url(img/hakuba-bg.png);
-}
-
-.okinava {
-    grid-area: ov;
-    max-width: 600px;
-    height: 300px;
-    background: url(img/okinava-bg.png);
-}
-
-.tour {
-    grid-area: tr;
-    margin-top: 50px;
-}
 
 .all-variants {
     grid-area: av;
