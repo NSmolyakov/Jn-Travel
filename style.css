@@ -56,18 +56,40 @@ p {
     border-radius: 10px;
     border: 0;
 }
-.btn-primary-mini{
-    min-width: 220px;
-    min-height: 60px;
-    
-    font-size: 18px;
-    letter-spacing: 1px;
-}
+
 .btn-primary:hover {
     color: #DDD;
     background: #960427;
     box-shadow: 0px 4px 25.2px rgba(154, 154, 154, 0.5);
 }
+
+.btn-primary-mini {
+    min-width: 220px;
+    height: 56px;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 2px;
+
+    background: #BC002D;
+    box-shadow: 0px 4px 25.2px rgba(154, 154, 154, 0.05);
+    border-radius: 10px;
+    border: 0;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.btn-primary-mini:hover {
+    color: #DDD;
+    background: #960427;
+    box-shadow: 0px 4px 25.2px rgba(154, 154, 154, 0.5);
+}
+
+
 
 
 /*Header Styles start*/
@@ -105,10 +127,20 @@ header {
 
 .social-img {
     margin-right: 15px;
+    width: 24px;
+    height: auto;
+}
+
+.social-img:hover {
+    cursor: pointer;
 }
 
 .lang-item {
     margin-right: 10px;
+}
+
+.lang-item:hover {
+    cursor: pointer;
 }
 
 /*Header Styles end*/
@@ -227,12 +259,53 @@ header {
     height: 540px;
 }
 
-.cons-content{
+.cons-content {
     padding-top: 80px;
     max-width: 640px;
 }
 
-.consult h3{
-   color:#fff;
+.consult h3 {
+    color: #fff;
 }
+
 /*Consultation block styles end*/
+
+
+/*Footer styles start*/
+footer {
+    background: #343131;
+}
+
+footer h3 {
+    margin-top: 56px;
+    color: #fff;
+    font-style: italic;
+    text-align: center;
+}
+
+.footer-info {
+    margin-top: 84px;
+    margin-bottom: 117px;
+}
+
+footer hr {
+    margin-top: 10px;
+    border-top: 3px solid #555;
+}
+
+footer .navigation {
+    text-align: center;
+}
+
+footer .navigation a {
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+footer .nav-link {
+    padding: 2rem 0.2rem;
+}
+
+/*Footer styles end*/
