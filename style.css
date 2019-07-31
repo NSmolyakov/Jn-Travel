@@ -56,7 +56,13 @@ p {
     border-radius: 10px;
     border: 0;
 }
-
+.btn-primary-mini{
+    min-width: 220px;
+    min-height: 60px;
+    
+    font-size: 18px;
+    letter-spacing: 1px;
+}
 .btn-primary:hover {
     color: #DDD;
     background: #960427;
@@ -93,7 +99,7 @@ header {
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
-    
+
     color: #fff;
 }
 
@@ -179,7 +185,7 @@ header {
 .hakuba {
     max-width: 566px;
     height: 300px;
-    
+
     background: url(img/hakuba-bg.png);
     border-radius: 10px;
 }
@@ -187,7 +193,7 @@ header {
 .okinava {
     max-width: 566px;
     height: 300px;
-    
+
     background: url(img/okinava-bg.png);
     border-radius: 10px;
 }
@@ -213,3 +219,20 @@ header {
 }
 
 /*Tours block styles end*/
+
+
+/*Consultation block styles start*/
+.consult {
+    background: url(img/cons-bg.png);
+    height: 540px;
+}
+
+.cons-content{
+    padding-top: 80px;
+    max-width: 640px;
+}
+
+.consult h3{
+   color:#fff;
+}
+/*Consultation block styles end*/
