@@ -163,13 +163,14 @@ header {
 
 .hero-block h1 {
     padding-top: 258px;
-    animation: hero_animation_text 1s 1;
+    animation: hero_animation_text .75s 1;
 }
 
 .hero-block .btn {
     margin-top: 56px;
-    animation: hero_animation_text 1s 1;
+    animation: hero_animation_text .75s 1;
 }
+
 
 @media screen and (max-width:986px) {
     h1 {
@@ -267,6 +268,7 @@ header {
     display: block;
 }
 
+
 @media screen and (max-width:1200px) {
     .wrap_tour h3 {
         font-size: 24px;
@@ -342,6 +344,7 @@ footer .nav-link {
     padding: 2rem 0.2rem;
 }
 
+
 @media screen and (max-width:986px) {
     .lang {
         display: none;
@@ -374,7 +377,7 @@ footer .nav-link {
 
 @keyframes hero_animation_text {
     from {
-        transform: scale(0.92);
+        transform: scale(0.94);
     }
 
     to {
