@@ -100,6 +100,7 @@ header {
     background: #343434;
     position: fixed;
     z-index: 1;
+    animation: hero_animation 1s 1;
 }
 
 .bg-dark {
@@ -156,15 +157,29 @@ header {
 
 .hero-block {
     height: 872px;
-    background: url(img/hero-bg.png)
+    background: url(img/hero-bg.png);
+    animation: hero_animation 1s 1;
 }
 
 .hero-block h1 {
     padding-top: 258px;
+    animation: hero_animation_text 1s 1;
 }
 
 .hero-block .btn {
     margin-top: 56px;
+    animation: hero_animation_text 1s 1;
+}
+
+@media screen and (max-width:986px) {
+    h1 {
+        font-size: 64px;
+        letter-spacing: 1.9px;
+    }
+
+    h3 {
+        font-size: 32px;
+    }
 }
 
 /*Hero block Styles end*/
@@ -252,6 +267,23 @@ header {
     display: block;
 }
 
+@media screen and (max-width:1200px) {
+    .wrap_tour h3 {
+        font-size: 24px;
+        position: absolute;
+        top: 24px;
+        left: 32px;
+    }
+
+    .wrap_tour p {
+        position: absolute;
+        top: 80px;
+        left: 32px;
+        max-width: 460px;
+        color: #E4E4E4;
+    }
+}
+
 /*Tours block styles end*/
 
 
@@ -310,4 +342,41 @@ footer .nav-link {
     padding: 2rem 0.2rem;
 }
 
+@media screen and (max-width:986px) {
+    .lang {
+        display: none;
+    }
+
+    footer .navigation {
+        text-align: center;
+        margin-left: 114px;
+    }
+
+    footer .nav-link {
+        padding: 2rem 2.2rem;
+    }
+}
+
+
 /*Footer styles end*/
+
+
+/*Animation*/
+@keyframes hero_animation {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes hero_animation_text {
+    from {
+        transform: scale(0.92);
+    }
+
+    to {
+        transform: scale(1);
+    }
