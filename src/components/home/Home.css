@@ -155,3 +155,25 @@
 }
 
 /*Consultation block styles end*/
+
+
+/*Animation*/
+@keyframes hero_animation {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes hero_animation_text {
+    from {
+        transform: scale(0.94);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
