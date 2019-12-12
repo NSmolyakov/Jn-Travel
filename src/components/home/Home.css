@@ -1,0 +1,157 @@
+/*Hero block Styles start*/
+.container-fluid {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.hero-block {
+    height: 872px;
+    /* background: url(img/hero-bg.png); */
+    animation: hero_animation 1s 1;
+}
+
+.hero-block h1 {
+    padding-top: 258px;
+    animation: hero_animation_text .75s 1;
+}
+
+.hero-block .btn {
+    margin-top: 56px;
+    animation: hero_animation_text .75s 1;
+}
+
+
+@media screen and (max-width:986px) {
+    h1 {
+        font-size: 64px;
+        letter-spacing: 1.9px;
+    }
+
+    h3 {
+        font-size: 32px;
+    }
+}
+
+/*Hero block Styles end*/
+
+
+/*Tours block styles start*/
+.tours {
+    margin-top: 100px;
+}
+
+.classic {
+    /* background: url(img/classic-bg.png); */
+    width: 1140px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.wrap_tour {
+    position: relative
+}
+
+.wrap_tour h3 {
+    position: absolute;
+    top: 40px;
+    left: 52px;
+
+    color: #E4E4E4;
+}
+
+.wrap_tour p {
+    position: absolute;
+    top: 98px;
+    left: 52px;
+    max-width: 460px;
+
+    color: #E4E4E4;
+}
+
+.wrap_tour a {
+    display: block;
+    margin-top: 14px;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #fff;
+}
+
+.hakuba {
+    max-width: 566px;
+    height: 300px;
+
+    /* background: url(img/hakuba-bg.png); */
+    border-radius: 10px;
+}
+
+.okinava {
+    max-width: 566px;
+    height: 300px;
+
+    /* background: url(img/okinava-bg.png); */
+    border-radius: 10px;
+}
+
+.more_tours {
+    margin-bottom: 174px;
+}
+
+.more_tours p {
+    max-width: 560px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.72px;
+
+    color: #555555;
+}
+
+.more_tours btn {
+    display: block;
+}
+
+
+@media screen and (max-width:1200px) {
+    .wrap_tour h3 {
+        font-size: 24px;
+        position: absolute;
+        top: 24px;
+        left: 32px;
+    }
+
+    .wrap_tour p {
+        position: absolute;
+        top: 80px;
+        left: 32px;
+        max-width: 460px;
+        color: #E4E4E4;
+    }
+}
+
+/*Tours block styles end*/
+
+
+/*Consultation block styles start*/
+.consult {
+    /* background: url(img/cons-bg.png); */
+    height: 540px;
+}
+
+.cons-content {
+    padding-top: 80px;
+    max-width: 640px;
+}
+
+.consult h3 {
+    color: #fff;
+}
+
+/*Consultation block styles end*/

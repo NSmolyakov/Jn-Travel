@@ -1,0 +1,55 @@
+/*Footer styles start*/
+footer {
+    background: #343131;
+}
+
+footer h3 {
+    margin-top: 56px;
+    color: #fff;
+    font-style: italic;
+    text-align: center;
+}
+
+.footer-info {
+    margin-top: 84px;
+    margin-bottom: 117px;
+}
+
+footer hr {
+    margin-top: 10px;
+    border-top: 3px solid #555;
+}
+
+footer .navigation {
+    text-align: center;
+}
+
+footer .navigation a {
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+footer .nav-link {
+    padding: 2rem 0.2rem;
+}
+
+
+@media screen and (max-width:986px) {
+    .lang {
+        display: none;
+    }
+
+    footer .navigation {
+        text-align: center;
+        margin-left: 114px;
+    }
+
+    footer .nav-link {
+        padding: 2rem 2.2rem;
+    }
+}
+
+
+/*Footer styles end*/

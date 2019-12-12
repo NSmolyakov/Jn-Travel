@@ -1,0 +1,53 @@
+/*Header Styles start*/
+header {
+    width: 100%;
+    background: #343434;
+    position: fixed;
+    z-index: 1;
+    animation: hero_animation 1s 1;
+}
+
+.bg-dark {
+    background: #343434 !important;
+}
+
+.nav-item {
+    margin-right: 6px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.nav-link:hover {
+    color: #BC002D !important;
+}
+
+.lang {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+
+    color: #fff;
+}
+
+.social-img {
+    margin-right: 15px;
+    width: 24px;
+    height: auto;
+}
+
+.social-img:hover {
+    cursor: pointer;
+}
+
+.lang-item {
+    margin-right: 10px;
+}
+
+.lang-item:hover {
+    cursor: pointer;
+}
+
+/*Header Styles end*/

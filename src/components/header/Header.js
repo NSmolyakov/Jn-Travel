@@ -1,7 +1,8 @@
 import React from 'react';
+import './Header.css'
 
 const Header = () => {
-    return(<div className="start">
+    return(<>
     <header>
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -38,7 +39,7 @@ const Header = () => {
             </nav>
         </div>
     </header>
-</div>
+</>
     );       
 }
 
