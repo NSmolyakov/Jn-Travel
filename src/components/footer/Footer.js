@@ -1,5 +1,9 @@
 import React from 'react';
 import './Footer.css'
+import Fb from '../../img/facebook.svg'
+import Tw from '../../img/twitter.svg'
+import Ig from '../../img/instagram.svg'
+import Logo from '../../img/Jn-Travel_logo.png'
 
 const Footer = () => {
     return(<>
@@ -13,7 +17,7 @@ const Footer = () => {
                     </div>
                     <div class="container">
                         <div class="row footer-info">
-                            <div class="col-md-4"><a href="#"><img src="img/Jn-Travel_logo.png" alt="logo"></img></a></div>
+                            <div class="col-md-4"><a href="#"><img src={Logo} alt="logo"></img></a></div>
 
                             <div class="col-md-6 navigation">
                                 <a class="nav-item nav-link" href="#">Туры</a>
@@ -30,9 +34,9 @@ const Footer = () => {
                                 <span class="lang-item">FR</span>
 
                                 <div class="row mt-4">
-                                    <img class="social-img" src="img/facebook.svg" alt="facebook"></img>
-                                    <img class="social-img" src="img/twitter.svg" alt="twitter"></img>
-                                    <img class="social-img" src="img/instagram.svg" alt="insta"></img></div>
+                                    <img class="social-img" src={Fb} alt="facebook"></img>
+                                    <img class="social-img" src={Tw} alt="twitter"></img>
+                                    <img class="social-img" src={Ig} alt="insta"></img></div>
                             </div>
                         </div>
                     </div>

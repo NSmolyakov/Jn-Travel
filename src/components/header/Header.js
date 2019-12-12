@@ -1,5 +1,9 @@
 import React from 'react';
 import './Header.css'
+import Fb from '../../img/facebook.svg'
+import Tw from '../../img/twitter.svg'
+import Ig from '../../img/instagram.svg'
+import Logo from '../../img/Jn-Travel_logo.png'
 
 const Header = () => {
     return(<>
@@ -16,13 +20,13 @@ const Header = () => {
                     </div>
                 </div>
                 
-                <a class="navbar-brand pr-5" href="#"><img src="img/Jn-Travel_logo.png" alt=""></img></a>
+                <a class="navbar-brand pr-5" href="#"><img src={Logo} alt=""></img></a>
 
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="pl-5 social">
-                        <img class="social-img" src="img/facebook.svg" alt="facebook"></img>
-                        <img class="social-img" src="img/twitter.svg" alt="twitter"></img>
-                        <img class="social-img" src="img/instagram.svg" alt="insta"></img>
+                        <img class="social-img" src={Fb} alt="facebook"></img>
+                        <img class="social-img" src={Tw} alt="twitter"></img>
+                        <img class="social-img" src={Ig} alt="insta"></img>
                     </div>
 
                     <div class="pl-5 lang">
