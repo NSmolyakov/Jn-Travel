@@ -4,6 +4,7 @@ import Fb from '../../img/facebook.svg'
 import Tw from '../../img/twitter.svg'
 import Ig from '../../img/instagram.svg'
 import Logo from '../../img/Jn-Travel_logo.png'
+import {NavLink} from 'react-router-dom'
 
 const Header = () => {
     return(<>
@@ -20,7 +21,7 @@ const Header = () => {
                     </div>
                 </div>
                 
-                <a class="navbar-brand pr-5" href="#"><img src={Logo} alt=""></img></a>
+                <NavLink to="/home"> <img src={Logo} alt=""></img></NavLink>
 
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="pl-5 social">
