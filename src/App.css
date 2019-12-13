@@ -92,3 +92,27 @@ p {
 a:hover {
     text-decoration: none;
 }
+
+.btn-alt-mini {
+    min-width: 220px;
+    height: 56px;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 2px;
+
+    background: none;
+    border: #BC002D 2px solid;
+    border-radius: 10px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #BC002D;
+}
+
+.btn-alt-mini:hover {
+    background: #960427;
+    color:#fff;
+}

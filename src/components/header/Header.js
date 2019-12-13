@@ -9,15 +9,15 @@ import {NavLink} from 'react-router-dom'
 const Header = () => {
     return(<>
     <header>
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link" href="#">Туры</a>
-                        <a class="nav-item nav-link" href="#">Услуги</a>
-                        <a class="nav-item nav-link" href="#">Отели</a>
-                        <a class="nav-item nav-link" href="#">О Нас</a>
-                        <a class="nav-item nav-link" href="#">Отзывы</a>
+        <div className="container">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div className="navbar-nav">
+                        <NavLink to="/tours" className="nav-item nav-link">Туры</NavLink>
+                        <NavLink to="/services" className="nav-item nav-link">Услуги</NavLink>
+                        <NavLink to="/hotels" className="nav-item nav-link">Отели</NavLink>
+                        <NavLink to="/about" className="nav-item nav-link">О Нас</NavLink>
+                        <NavLink to="/testimonials" className="nav-item nav-link">Отзывы</NavLink>
                     </div>
                 </div>
                 
@@ -25,15 +25,15 @@ const Header = () => {
 
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="pl-5 social">
-                        <img class="social-img" src={Fb} alt="facebook"></img>
-                        <img class="social-img" src={Tw} alt="twitter"></img>
-                        <img class="social-img" src={Ig} alt="insta"></img>
+                        <img className="social-img" src={Fb} alt="facebook"></img>
+                        <img className="social-img" src={Tw} alt="twitter"></img>
+                        <img className="social-img" src={Ig} alt="insta"></img>
                     </div>
 
                     <div class="pl-5 lang">
-                        <span class="lang-item">RU</span>
-                        <span class="lang-item">EN</span>
-                        <span class="lang-item">FR</span>
+                        <span className="lang-item">RU</span>
+                        <span className="lang-item">EN</span>
+                        <span className="lang-item">FR</span>
                     </div>
 
                 </div>

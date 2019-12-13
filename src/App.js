@@ -3,24 +3,21 @@ import './App.css'
 import Header from './components/header/Header'
 import Home from './components/home/Home'
 import Footer from './components/footer/Footer'
-import { BrowserRouter, Route } from 'react-router-dom';
+import PageNotFound from './components/404/404'
+import { Route,Switch } from 'react-router-dom';
 
-const App = () =>{
+const App = () => {
   return (
     <div className="App">
-      <BrowserRouter>
       <Header />
 
-      <Route exact path='/'
-          render={ () => <Home />}  />
-
-
-      <Route path='/home'
-          render={ () => <Home />}  />
-
-      
+      <Switch>
+          <Route exact path='/' render={Home}  />
+          <Route path='/home' render={Home} />
+          <Route path="*" render={PageNotFound} />    
+      </Switch>
+     
       <Footer />
-      </BrowserRouter>
     </div>
   );
 }
