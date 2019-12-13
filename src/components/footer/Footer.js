@@ -30,9 +30,9 @@ const Footer = () => {
 
                             <div className="col-md-2 lang">
                                 <div className="row pb-2"></div>
-                                <span className="lang-item">RU</span>
-                                <span className="lang-item">EN</span>
-                                <span className="lang-item">FR</span>
+                                <NavLink to="/"><span className="lang-item">RU</span></NavLink>
+                                <NavLink to="/english"><span className="lang-item">EN</span></NavLink>
+                                <NavLink to="/french"><span className="lang-item">FR</span></NavLink>
 
                                 <div className="row mt-4">
                                     <img className="social-img" src={Fb} alt="facebook"></img>

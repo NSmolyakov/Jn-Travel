@@ -54,4 +54,8 @@ header {
     cursor: pointer;
 }
 
+.lang a {
+    color:#fff;
+}
+
 /*Header Styles end*/

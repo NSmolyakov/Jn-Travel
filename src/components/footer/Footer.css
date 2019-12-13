@@ -35,6 +35,10 @@ footer .nav-link {
     padding: 2rem 0.2rem;
 }
 
+.lang a {
+    color:#fff;
+}
+
 
 @media screen and (max-width:986px) {
     .lang {
@@ -50,6 +54,7 @@ footer .nav-link {
         padding: 2rem 2.2rem;
     }
 }
+
 
 
 /*Footer styles end*/

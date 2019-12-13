@@ -31,9 +31,9 @@ const Header = () => {
                     </div>
 
                     <div class="pl-5 lang">
-                        <span className="lang-item">RU</span>
-                        <span className="lang-item">EN</span>
-                        <span className="lang-item">FR</span>
+                        <NavLink to="/"><span className="lang-item">RU</span></NavLink>
+                        <NavLink to="/english"><span className="lang-item">EN</span></NavLink>
+                        <NavLink to="/french"><span className="lang-item">FR</span></NavLink>
                     </div>
 
                 </div>
