@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import './Header.css'
 import Fb from '../../img/facebook.svg'
 import Tw from '../../img/twitter.svg'
@@ -23,8 +23,8 @@ const Header = () => {
                 
                 <NavLink to="/home"> <img src={Logo} alt=""></img></NavLink>
 
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="pl-5 social">
+                <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div className="pl-5 social">
                         <img className="social-img" src={Fb} alt="facebook"></img>
                         <img className="social-img" src={Tw} alt="twitter"></img>
                         <img className="social-img" src={Ig} alt="insta"></img>
@@ -38,8 +38,8 @@ const Header = () => {
 
                 </div>
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
                 </button>
             </nav>
         </div>
