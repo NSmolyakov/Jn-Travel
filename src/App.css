@@ -116,3 +116,9 @@ a:hover {
     background: #960427;
     color:#fff;
 }
+
+
+.secondaryPage{
+    min-height: 600px;
+    padding-top: 140px;
+}

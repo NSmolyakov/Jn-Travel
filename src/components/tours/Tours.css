@@ -1,0 +1,100 @@
+/*Tours block styles start*/
+.tours{
+    padding-top: 120px;
+}
+.classic {
+    background: url(../../img/classic-bg.png); 
+    width: 1140px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.wrap_tour {
+    position: relative
+}
+
+.wrap_tour h3 {
+    position: absolute;
+    top: 40px;
+    left: 52px;
+
+    color: #E4E4E4;
+}
+
+.wrap_tour p {
+    position: absolute;
+    top: 98px;
+    left: 52px;
+    max-width: 460px;
+
+    color: #E4E4E4;
+}
+
+.wrap_tour a {
+    display: block;
+    margin-top: 14px;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #fff;
+}
+
+.hakuba {
+    max-width: 566px;
+    height: 300px;
+
+    background: url(../../img/hakuba-bg.png); 
+    border-radius: 10px;
+}
+
+.okinava {
+    max-width: 566px;
+    height: 300px;
+
+    background: url(../../img/okinava-bg.png); 
+    border-radius: 10px;
+}
+
+.more_tours {
+    margin-bottom: 174px;
+}
+
+.more_tours p {
+    max-width: 560px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.72px;
+
+    color: #555555;
+}
+
+.more_tours btn {
+    display: block;
+}
+
+
+@media screen and (max-width:1200px) {
+    .wrap_tour h3 {
+        font-size: 24px;
+        position: absolute;
+        top: 24px;
+        left: 32px;
+    }
+
+    .wrap_tour p {
+        position: absolute;
+        top: 80px;
+        left: 32px;
+        max-width: 460px;
+        color: #E4E4E4;
+    }
+}
+
+/*Tours block styles end*/
