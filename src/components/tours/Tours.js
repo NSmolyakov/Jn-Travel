@@ -2,14 +2,11 @@ import React from 'react'
 import './Tours.css'
 
 const Tours = () => {
-    return( 
-   <section>
+    return( <section>
         <div className="container">
             <div className="tours d-flex justify-content-center">
                 <h2 className="pb-4">Самые популярные туры:</h2>
             </div>
-
-
             <div className="row">
                 <div className="classic">
                     <div className="wrap_tour">
@@ -63,9 +60,7 @@ const Tours = () => {
                 <button type="button" className="btn-primary-mini">Все предложения </button>
             </div>
         </div>
-    </section>
-    
-    );       
+    </section>);       
 }
 
 export default Tours;

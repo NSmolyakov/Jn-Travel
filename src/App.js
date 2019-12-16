@@ -12,7 +12,7 @@ const Services = lazy(() => import('./components/services/Services'));
 const About = lazy(() => import('./components/about/About'));
 const Hotels = lazy(() => import('./components/hotels/Hotels'));
 
-const App = () => {
+const App = (store) => {
   return (
     <div className="App">
       <Header />
