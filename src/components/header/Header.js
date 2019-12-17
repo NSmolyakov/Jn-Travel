@@ -13,7 +13,7 @@ const Header = () => {
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
-                        <NavLink to="/tours" className="nav-item nav-link">Туры</NavLink>
+                        <NavLink to="/alltours" className="nav-item nav-link">Туры</NavLink>
                         <NavLink to="/services" className="nav-item nav-link">Услуги</NavLink>
                         <NavLink to="/hotels" className="nav-item nav-link">Отели</NavLink>
                         <NavLink to="/about" className="nav-item nav-link">О Нас</NavLink>

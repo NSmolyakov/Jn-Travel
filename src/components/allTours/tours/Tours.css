@@ -3,7 +3,7 @@
     padding-top: 120px;
 }
 .classic {
-    background: url(../../img/classic-bg.png); 
+    background: url(../../../img/classic-bg.png); 
     width: 1140px;
     height: 300px;
     border-radius: 10px;
@@ -47,7 +47,7 @@
     max-width: 566px;
     height: 300px;
 
-    background: url(../../img/hakuba-bg.png); 
+    background: url(../../../img/hakuba-bg.png); 
     border-radius: 10px;
 }
 
@@ -55,7 +55,7 @@
     max-width: 566px;
     height: 300px;
 
-    background: url(../../img/okinava-bg.png); 
+    background: url(../../../img/okinava-bg.png); 
     border-radius: 10px;
 }
 

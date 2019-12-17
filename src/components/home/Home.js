@@ -1,5 +1,5 @@
 import React from 'react';
-import Tours from '../tours/Tours'
+import Tours from '../allTours/tours/Tours'
 import './Home.css'
 
 const Home = () => {
@@ -14,7 +14,17 @@ const Home = () => {
         </div>
     </section>
 
+    <div className="container">
+            <div className="tours d-flex justify-content-center">
+                <h2 className="pb-4">Самые популярные туры:</h2>
+            </div>
     <Tours />
+    <div className="row mt-5 pt-5 more_tours d-flex justify-content-center">
+        <p>Туры в Японию - заветная мечта многих туристов, которые давно хотят открыть для себя эту древнюю страну, таящую в себе множество загадок</p>
+        <button type="button" className="btn-primary-mini">Все предложения </button>
+    </div>
+
+    </div>
 
     <div className="container-fluid">
         <div className="consult">

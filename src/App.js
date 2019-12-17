@@ -4,7 +4,7 @@ import { Route,Switch } from 'react-router-dom'
 import Header from './components/header/Header'
 import Home from './components/home/Home'
 import Footer from './components/footer/Footer'
-import Tours from './components/tours/Tours'
+import allTours from './components/allTours/allTours'
 
 
 const PageNotFound = lazy(() => import('./components/404/404'));
@@ -12,7 +12,7 @@ const Services = lazy(() => import('./components/services/Services'));
 const About = lazy(() => import('./components/about/About'));
 const Hotels = lazy(() => import('./components/hotels/Hotels'));
 
-const App = (store) => {
+const App = () => {
   return (
     <div className="App">
       <Header />
@@ -21,7 +21,7 @@ const App = (store) => {
         <Switch>
             <Route exact path='/' render={Home}  />
             <Route path='/home' render={Home} />
-            <Route path='/tours' render={Tours} />
+            <Route path='/alltours' render={allTours} />
             <Route path='/services' component={Services} />
             <Route path='/about' component={About} />
             <Route path='/hotels' component={Hotels} />
