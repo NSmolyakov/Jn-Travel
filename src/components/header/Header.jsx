@@ -30,7 +30,7 @@ const Header = () => {
                         <img className="social-img" src={Ig} alt="insta"></img>
                     </div>
 
-                    <div class="pl-5 lang">
+                    <div className="pl-5 lang">
                         <NavLink to="/"><span className="lang-item">RU</span></NavLink>
                         <NavLink to="/english"><span className="lang-item">EN</span></NavLink>
                         <NavLink to="/french"><span className="lang-item">FR</span></NavLink>
